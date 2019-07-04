@@ -59,7 +59,10 @@ ul {
   margin-top: -20px;
   background-color: white;
 }
-
+.socialmedia{
+    height: 40px;
+    width: 100px;
+}
 .insidejumbotwo {
   margin-top: -20px;
   margin-bottom: -20px;
@@ -114,6 +117,10 @@ ul {
   margin-top: -20px;
   padding-bottom: 20px;
   padding-top: 28px;
+}
+.fa-check-circle{
+  color: #008640;
+  font-size: 2.5em;
 }
 .fa-thumbs-up{
   color: #F4911E;
@@ -338,7 +345,7 @@ label.ratestars:before {
       <div class="insidejumbotwo">
         <p style="font-size: 15px; margin-top: -5px">
         Dear Customer,<br><br>
-        Please find your purchase bill for Rs 601.80 generated on 19th February, 2019 at Lajpat Nagar, New Delhi.
+        Please find your purchase bill for Rs 1,500 generated on 2nd July, 2019 at Lajpat Nagar, New Delhi.
         </p>
         <hr style="width: 98%">
 
@@ -397,10 +404,10 @@ label.ratestars:before {
         <table>
           <tr>
             <td width="300" style="vertical-align: center">
-              <i class="fas fa-coins"></i> <span style="padding-left: 10px; color: black">Your Value Club Pts:</span> <span style="color: black; font-weight: 900;">350</span><span style="margin-left: 10px" data-toggle="modal" data-target="#loyaltymodal" data-whatever="@mdo"><i class="fas fa-info-circle"></i></span></td>
+              <i class="fas fa-coins"></i> <span style="padding-left: 10px; color: black">Your Value Club Points:</span> <span style="color: black; font-weight: 900;">350</span></td>
             <td width="100" style="text-align: right; vertical-align: center">
-            	<a href="http://www.vmart.co.in/">
-        <button type="button" class="btn btn-danger btn-sm"><span style="color: white"> Redeem</span></button></a>              
+              <input class="btn btn-danger btn-sm" type="submit" value="Manage" data-toggle="modal" data-target="#loyaltymodal" data-whatever="@mdo">
+              
             </td>
           </tr>
         </table>
@@ -468,7 +475,7 @@ label.ratestars:before {
             <td style="text-align: left" width="85px;" height="85px;" ><img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/ac57cd6b-a57b-4e00-9923-cbf7d43265e1.jpg" width="75px" class="rotate90"></td>
             <td  style="text-align: left" >
             <span style="font-weight: 900; font-size: 15px;"> V-Mart Gift Card</span><br>
-            <span style="font-size: 15px; ">Give the perfect gift to your<br>friends and family</span><br><a href="http://www.vmart.co.in/gift-card">
+            <span style="font-size: 15px; ">Give the perfect gift <br>anytime of the year</span><br><a href="http://www.vmart.co.in/gift-card">
             <span style="color: #0076BC; font-weight: 700; font-size: 15px">Buy Now <i class="fas fa-chevron-circle-right"></i></span>
             </td>
         </tr>
@@ -727,32 +734,26 @@ label.ratestars:before {
 
   <!-- Section 5 Ends Here -->
 
-
-    <!-- Section 3 -->
-
-
+<!-- Section subscribe email -->
     <div class="jumbotron jumbotron-fluid jumboone border-bottom noselect">
       <div class="container">
       <div class="insidejumboone">
 
+                <h6 style="font-size: 18px; font-weight: 700"><img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/2e63753c-04c3-4d17-a1eb-fd871e35895e.png" width="20px"> V-Mart 'Guess The Dress' Contest</h6>
+        <p style="font-size: 15px; margin-top: -10px; margin-bottom: 18px;">3 Lucky winners will get vouchers worth Rs1200</p>
+        <img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/093299f8-266d-4d02-a37e-538d259cb4c0.png" width="100%" style="margin-bottom: 20px;">
 
-          <table width="100%" >
-        <tr>
-            <td style="text-align: left" width="85px;" height="85px;"><img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/2e8f6866-2823-4600-8073-aaceea01dcc1.png" width="80px" class="rounded-circle"></td>
-            <td  style="text-align: left" >
-            <span style="font-weight: 900; font-size: 15px;">Find V-Mart Near You</span><br>
-            <span style="font-size: 15px;">Get trendy outfits for any <br>occasion. Visit Now!</span><br>
-            <span style="color: #0076BC; font-weight: 700; font-size: 15px"><a href="https://www.google.com/maps/search/Vmart/">Get Directions </a><i class="fas fa-chevron-circle-right"></i></span>
-            </td>
-        </tr>
-    </table>
+  <textarea  style="min-width: 85%" id="exampleFormControlTextarea1" class="pl" rows="2" placeholder="Your answer"></textarea><p></p>
+  <input class="btn btn-danger" type="submit" value="Submit" data-toggle="modal" data-target="#exampleModal2105" data-whatever="@mdo">        
+
 
 
       </div>
       </div>
     </div>
 
-  <!-- Section 3 Ends Here -->
+
+<!-- Section ends -->
 
 
 
@@ -793,7 +794,7 @@ label.ratestars:before {
       <div class="container">
       <div class="insidejumbotwo43">
 
-                <h6 style="font-size: 18px; font-weight: 700; margin-bottom: 10px;"><i class="fas fa-percentage"></i> Offers On Our Latest Collection</h6>
+                <h6 style="font-size: 18px; font-weight: 700; margin-bottom: 10px;"><i class="fas fa-percentage"></i> View Our Latest Collection</h6>
 <!--         <p style="font-size: 15px; margin-top: -5px">We love you Bagmishree!</p> -->
 
 
@@ -885,6 +886,31 @@ label.ratestars:before {
 
 <!-- Fourth Section Ends Here -->
 
+    <!-- Section 3 -->
+
+
+    <div class="jumbotron jumbotron-fluid jumboone border-bottom noselect">
+      <div class="container">
+      <div class="insidejumboone">
+
+
+          <table width="100%" >
+        <tr>
+            <td style="text-align: left" width="85px;" height="85px;"><img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/2e8f6866-2823-4600-8073-aaceea01dcc1.png" width="80px" class="rounded-circle"></td>
+            <td  style="text-align: left" >
+            <span style="font-weight: 900; font-size: 15px;">Find V-Mart Near You</span><br>
+            <span style="font-size: 15px;">Get trendy outfits for any <br>occasion. Visit Now!</span><br>
+            <span style="color: #0076BC; font-weight: 700; font-size: 15px"><a href="https://www.google.com/maps/search/Vmart/">Get Directions </a><i class="fas fa-chevron-circle-right"></i></span>
+            </td>
+        </tr>
+    </table>
+
+
+      </div>
+      </div>
+    </div>
+
+  <!-- Section 3 Ends Here -->
 
 
 
@@ -933,6 +959,16 @@ label.ratestars:before {
 
   <!-- Section 9 Ends Here -->
 
+  <div>
+    <table align="center" style="margin-top: -18px;">
+        <tr>
+            <td class="socialmedia rounded" style="background: white; border-right: 5px solid #eeeeee; text-align: center"><a href="https://www.facebook.com/vmartretail"><span style="color: black"> <i class="fab fa-facebook-f"></i> Facebook</span></a></td>           
+            <td class="socialmedia rounded" style="background: white;border-right: 5px solid #eeeeee; text-align: center"><a href="https://twitter.com/vmartretail"><span style="color: black"><i class="fab fa-instagram"></i> Instagram</span></a></td>            
+            <td class="socialmedia rounded" style="background: white;border-right: 5px solid #eeeeee; text-align: center"><a href="https://www.instagram.com/vmart_retail/"><span style="color: black"> <i class="fab fa-twitter"></i> Twitter</span></a></td>            
+        </tr>
+    </table>
+</div>
+
 
   <!-- Modal Information Loyalty Points -->
 
@@ -978,7 +1014,7 @@ label.ratestars:before {
         <p style="text-align: center;"><i class="fas fa-thumbs-up"></i><br><br>Thanks for giving your valuable feedback.</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-outline-warning" data-dismiss="modal" style="margin: auto;" >Close</button>
+        <button type="button" class="btn btn-outline-danger" data-dismiss="modal" style="margin: auto;" >Close</button>
       </div>
     </div>
   </div>
@@ -999,7 +1035,25 @@ label.ratestars:before {
         <p style="text-align: center;"><i class="far fa-thumbs-up"></i><br><br>Congratulations, you have been successfully subscribed.</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-outline-warning" data-dismiss="modal" style="margin: auto;" >Close</button>
+        <button type="button" class="btn btn-outline-danger" data-dismiss="modal" style="margin: auto;" >Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Email Subscribed Stop -->
+
+<!-- Email Subscribed  -->
+    <div class="modal noselect modal-ku fade" tabindex="-1" role="dialog" id="exampleModal2105">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <p style="text-align: center;"><i class="fas fa-check-circle"></i><br><br>Thanks for participating in 'Guess The Dress' Contest. Lucky winners shall be announced on our Facebook page.</p>
+        <div style="text-align: center"><a href="https://www.facebook.com/vmartretail"><img src="https://gallery.mailchimp.com/29f3009acb8c7b09438efab41/images/b5380381-0be5-419c-9627-1c0ac6a05e6b.png" width="30%"></a></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger" data-dismiss="modal" style="margin: auto;" >Close</button>
       </div>
     </div>
   </div>
